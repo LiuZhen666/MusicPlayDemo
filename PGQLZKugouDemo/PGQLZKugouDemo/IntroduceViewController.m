@@ -99,7 +99,8 @@
         }];
     }
     else{
-        [UIView animateWithDuration:0.25 animations:^{
+        // 测试提交把时间改了
+        [UIView animateWithDuration:0.20 animations:^{
             weakSelf.joinButton.hidden = YES;
         }];
     }
